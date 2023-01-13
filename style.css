@@ -75,7 +75,7 @@ body .container .change-color:hover {
 
 @media screen and (max-width: 800px) {
   body {
-    background-color: rgb(223, 223, 223);
+    background-color: #923f53;
     display: flex;
     justify-content: center;
     align-items: center;

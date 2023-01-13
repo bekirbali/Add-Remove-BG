@@ -15,7 +15,7 @@ ul.style.textAlign = "center";
 
 add.addEventListener("click", () => {
   console.log(ul);
-  inp.value ? (ul.innerHTML += `<li>${inp.value}</li>`) : alert("add a value");
+  inp.value ? (ul.innerHTML += `<li>${inp.value}</li>`) : alert("Add a Value");
   inp.value = "";
   inp.focus();
 });
@@ -24,7 +24,7 @@ inp.addEventListener("keydown", (e) => {
   if (e.code === "Enter") {
     inp.value
       ? (ul.innerHTML += `<li>${inp.value}</li>`)
-      : alert("add a value");
+      : alert("Add a Value");
     inp.value = "";
     inp.focus();
   }
@@ -32,7 +32,7 @@ inp.addEventListener("keydown", (e) => {
 
 del.addEventListener("click", () => {
   if (ul.childElementCount === 0) {
-    alert("nothing to delete");
+    alert("Nothing to Delete");
   } else {
     ul.lastChild.remove();
   }

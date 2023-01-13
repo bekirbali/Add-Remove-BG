@@ -4,7 +4,7 @@ let newList = null;
 const button = document.querySelector(".change-color");
 const box = document.querySelector(".input-box");
 const inp = document.querySelector("#input");
-inp.setAttribute("placeholder", "add something");
+inp.setAttribute("placeholder", "Add Something");
 const ul = document.createElement("ul");
 const add = document.querySelector(".add");
 const del = document.querySelector(".delete");
